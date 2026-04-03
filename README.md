@@ -10,9 +10,9 @@
 Official Thread:<br>
 https://www.psx-place.com/threads/ps3xploit-idps-flash-dumpers.23123/
 
-v410-492
+v410-493
 
-* Added Support 4.86 HFW to 4.92 HFW (CEX)
+* Added Support 4.86 HFW to 4.93 HFW (CEX)
 
 
 v2.0.2
