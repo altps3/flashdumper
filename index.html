@@ -1,0 +1,44 @@
+<html>
+  <body>
+<h1 id="ps3-nand-nor-emmc-flash-idps-dumper">PS3 NAND/NOR/eMMC Flash/IDPS Dumper</h1>
+<p><a href="/index_nor.html">Dump NOR to USB</a><br>
+<a href="/index_nor_hdd.html">Dump NOR to HDD</a><br>
+<a href="/index_nand.html">Dump NAND to USB</a><br>
+<a href="/index_nand_hdd.html">Dump NAND to HDD</a><br>
+<a href="/flash-dumper/index_idps.html">Dump IDPS to USB</a><br>
+<br></p>
+<p>Official Thread:<br>
+<a href="https://www.psx-place.com/threads/ps3xploit-idps-flash-dumpers.23123/">https://www.psx-place.com/threads/ps3xploit-idps-flash-dumpers.23123/</a></p>
+<p>v410-493</p>
+<ul>
+<li>Added Support 4.86 HFW to 4.93 HFW (CEX)</li>
+</ul>
+<p>v2.0.2</p>
+<ul>
+<li>Updated To Support 4.85 HFW</li>
+</ul>
+<p>v2.0.1</p>
+<ul>
+<li>Updated To Support 4.84 HFW</li>
+</ul>
+<p>v2.0</p>
+<ul>
+<li>Freeze issues - Fixed</li>
+<li>Occasional bad dumps - Fixed</li>
+<li>No beeps &amp; shutdown. Replaced by a graceful ROP chain exit &amp; return to browser. This gives the opportunity to the user to dump after patching &amp; validate the dump with littlebalup&#39;s py checker. As long as the user does not shutdown/restart, it&#39;s still possible to recover from bad patching.</li>
+<li>Support for usb port 0,1,6 + sd/cf/ms cards.</li>
+<li>Multi firmware support on all dumpers (4.10+) &amp; DEX support on 4.81.</li>
+<li>HDD editions for all dumpers &amp; flash writer where a picture file placeholder is used for read/write operations.</li>
+<li>Javascript refactoring for performance &amp; efficiency.</li>
+<li>ps3xploit.com will host the 2.0 update, no need for 3rd party sites.</li>
+</ul>
+<p>v1.0 (Thanksgiving 2017 Release)</p>
+<ul>
+<li>Supports Direct OFW to CFW patching for All Phat and 2xxx Slim (minver 3.56 Dec 2010 and lower)</li>
+<li>the NOR/NAND writer will just copy 3Mb of CoreOS data to both ros0 &amp; ros1 in the flash memory.</li>
+<li>There is only one version released for 4.82. The same hex patch file can be used on nor &amp; nand.</li>
+<li>It&#39;s as safe as possible, with a check for usb device &amp; patch file making the exploit hang instead of corrupting flash if file is not found.</li>
+<li>In case of corruption (extremely rare but could always happen), it&#39;s only a partial brick because no per console info ever gets erased so a hardware flasher could still be used if ever a recovery reboot was impossible</li>
+</ul>
+  </body>
+</html>
